@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...)
   if(!is.null(inv))
   {
     message("getting cached data")
-    return(m)
+    return(inv)
   }
   
   mat <- x$get()
